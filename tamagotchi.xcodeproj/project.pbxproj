@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA52DED33075E5BE005F7A7C /* tamagotchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53DC5B30543E7100D19459 /* tamagotchiApp.swift */; };
+		FA52DED43075E5BF005F7A7C /* tamagotchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53DC5B30543E7100D19459 /* tamagotchiApp.swift */; };
+		FA52DED73075E68B005F7A7C /* Tamagochi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DED53075E68B005F7A7C /* Tamagochi.swift */; };
+		FA52DEDB3075E69D005F7A7C /* controlador_general.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DED83075E69C005F7A7C /* controlador_general.swift */; };
+		FA52DEDC3075E69D005F7A7C /* estados_controlador_general.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DED93075E69C005F7A7C /* estados_controlador_general.swift */; };
+		FA52DEDF3075E6A9005F7A7C /* Tamagochi.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DEDD3075E6A9005F7A7C /* Tamagochi.swift */; };
+		FA52DEE33075E6B7005F7A7C /* mascota_estado_pantalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DEE03075E6B7005F7A7C /* mascota_estado_pantalla.swift */; };
+		FA52DEE43075E6B7005F7A7C /* pantalla_usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DEE13075E6B7005F7A7C /* pantalla_usuario.swift */; };
+		FA53DC5C30543E7100D19459 /* tamagotchiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53DC5B30543E7100D19459 /* tamagotchiApp.swift */; };
+		FA53DC5E30543E7100D19459 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53DC5D30543E7100D19459 /* ContentView.swift */; };
+		FA53DC6030543E7A00D19459 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA53DC5F30543E7A00D19459 /* Assets.xcassets */; };
+		FA53DC6330543E7A00D19459 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA53DC6230543E7A00D19459 /* Preview Assets.xcassets */; };
+		FA53DC6D30543E7C00D19459 /* tamagotchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53DC6C30543E7C00D19459 /* tamagotchiTests.swift */; };
+		FA53DC7730543E7C00D19459 /* tamagotchiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53DC7630543E7C00D19459 /* tamagotchiUITests.swift */; };
+		FA53DC7930543E7C00D19459 /* tamagotchiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA53DC7830543E7C00D19459 /* tamagotchiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA53DC6930543E7C00D19459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA53DC5030543E7100D19459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA53DC5730543E7100D19459;
+			remoteInfo = tamagotchi;
+		};
+		FA53DC7330543E7C00D19459 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA53DC5030543E7100D19459 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA53DC5730543E7100D19459;
+			remoteInfo = tamagotchi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA52DED53075E68B005F7A7C /* Tamagochi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tamagochi.swift; sourceTree = "<group>"; };
+		FA52DED83075E69C005F7A7C /* controlador_general.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = controlador_general.swift; sourceTree = "<group>"; };
+		FA52DED93075E69C005F7A7C /* estados_controlador_general.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = estados_controlador_general.swift; sourceTree = "<group>"; };
+		FA52DEDD3075E6A9005F7A7C /* Tamagochi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tamagochi.swift; sourceTree = "<group>"; };
+		FA52DEE03075E6B7005F7A7C /* mascota_estado_pantalla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mascota_estado_pantalla.swift; sourceTree = "<group>"; };
+		FA52DEE13075E6B7005F7A7C /* pantalla_usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pantalla_usuario.swift; sourceTree = "<group>"; };
+		FA53DC5830543E7100D19459 /* tamagotchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tamagotchi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA53DC5B30543E7100D19459 /* tamagotchiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagotchiApp.swift; sourceTree = "<group>"; };
+		FA53DC5D30543E7100D19459 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA53DC5F30543E7A00D19459 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA53DC6230543E7A00D19459 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA53DC6830543E7C00D19459 /* tamagotchiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tamagotchiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA53DC6C30543E7C00D19459 /* tamagotchiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagotchiTests.swift; sourceTree = "<group>"; };
+		FA53DC7230543E7C00D19459 /* tamagotchiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tamagotchiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA53DC7630543E7C00D19459 /* tamagotchiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagotchiUITests.swift; sourceTree = "<group>"; };
+		FA53DC7830543E7C00D19459 /* tamagotchiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagotchiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA53DC5530543E7100D19459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA53DC6530543E7C00D19459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA53DC6F30543E7C00D19459 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA52DED63075E68B005F7A7C /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DED53075E68B005F7A7C /* Tamagochi.swift */,
+			);
+			name = modelos;
+			path = tamagotchi/modelos;
+			sourceTree = SOURCE_ROOT;
+		};
+		FA52DEDA3075E69C005F7A7C /* controladores */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DED83075E69C005F7A7C /* controlador_general.swift */,
+				FA52DED93075E69C005F7A7C /* estados_controlador_general.swift */,
+			);
+			path = controladores;
+			sourceTree = "<group>";
+		};
+		FA52DEDE3075E6A9005F7A7C /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DEDD3075E6A9005F7A7C /* Tamagochi.swift */,
+			);
+			path = modelos;
+			sourceTree = "<group>";
+		};
+		FA52DEE23075E6B7005F7A7C /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DEE03075E6B7005F7A7C /* mascota_estado_pantalla.swift */,
+				FA52DEE13075E6B7005F7A7C /* pantalla_usuario.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		FA53DC4F30543E7100D19459 = {
+			isa = PBXGroup;
+			children = (
+				FA53DC5A30543E7100D19459 /* tamagotchi */,
+				FA53DC6B30543E7C00D19459 /* tamagotchiTests */,
+				FA53DC7530543E7C00D19459 /* tamagotchiUITests */,
+				FA53DC5930543E7100D19459 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA53DC5930543E7100D19459 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA53DC5830543E7100D19459 /* tamagotchi.app */,
+				FA53DC6830543E7C00D19459 /* tamagotchiTests.xctest */,
+				FA53DC7230543E7C00D19459 /* tamagotchiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA53DC5A30543E7100D19459 /* tamagotchi */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DEDA3075E69C005F7A7C /* controladores */,
+				FA52DEDE3075E6A9005F7A7C /* modelos */,
+				FA53DC5D30543E7100D19459 /* ContentView.swift */,
+				FA53DC5B30543E7100D19459 /* tamagotchiApp.swift */,
+				FA53DC5F30543E7A00D19459 /* Assets.xcassets */,
+				FA52DEE23075E6B7005F7A7C /* ui */,
+				FA53DC6130543E7A00D19459 /* Preview Content */,
+			);
+			path = tamagotchi;
+			sourceTree = "<group>";
+		};
+		FA53DC6130543E7A00D19459 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA53DC6230543E7A00D19459 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA53DC6B30543E7C00D19459 /* tamagotchiTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA53DC6C30543E7C00D19459 /* tamagotchiTests.swift */,
+			);
+			path = tamagotchiTests;
+			sourceTree = "<group>";
+		};
+		FA53DC7530543E7C00D19459 /* tamagotchiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA53DC7630543E7C00D19459 /* tamagotchiUITests.swift */,
+				FA53DC7830543E7C00D19459 /* tamagotchiUITestsLaunchTests.swift */,
+				FA52DED63075E68B005F7A7C /* modelos */,
+			);
+			path = tamagotchiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA53DC5730543E7100D19459 /* tamagotchi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA53DC7C30543E7C00D19459 /* Build configuration list for PBXNativeTarget "tamagotchi" */;
+			buildPhases = (
+				FA53DC5430543E7100D19459 /* Sources */,
+				FA53DC5530543E7100D19459 /* Frameworks */,
+				FA53DC5630543E7100D19459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tamagotchi;
+			productName = tamagotchi;
+			productReference = FA53DC5830543E7100D19459 /* tamagotchi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA53DC6730543E7C00D19459 /* tamagotchiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA53DC7F30543E7C00D19459 /* Build configuration list for PBXNativeTarget "tamagotchiTests" */;
+			buildPhases = (
+				FA53DC6430543E7C00D19459 /* Sources */,
+				FA53DC6530543E7C00D19459 /* Frameworks */,
+				FA53DC6630543E7C00D19459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA53DC6A30543E7C00D19459 /* PBXTargetDependency */,
+			);
+			name = tamagotchiTests;
+			productName = tamagotchiTests;
+			productReference = FA53DC6830543E7C00D19459 /* tamagotchiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA53DC7130543E7C00D19459 /* tamagotchiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA53DC8230543E7C00D19459 /* Build configuration list for PBXNativeTarget "tamagotchiUITests" */;
+			buildPhases = (
+				FA53DC6E30543E7C00D19459 /* Sources */,
+				FA53DC6F30543E7C00D19459 /* Frameworks */,
+				FA53DC7030543E7C00D19459 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA53DC7430543E7C00D19459 /* PBXTargetDependency */,
+			);
+			name = tamagotchiUITests;
+			productName = tamagotchiUITests;
+			productReference = FA53DC7230543E7C00D19459 /* tamagotchiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA53DC5030543E7100D19459 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					FA53DC5730543E7100D19459 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					FA53DC6730543E7C00D19459 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FA53DC5730543E7100D19459;
+					};
+					FA53DC7130543E7C00D19459 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = FA53DC5730543E7100D19459;
+					};
+				};
+			};
+			buildConfigurationList = FA53DC5330543E7100D19459 /* Build configuration list for PBXProject "tamagotchi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA53DC4F30543E7100D19459;
+			productRefGroup = FA53DC5930543E7100D19459 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA53DC5730543E7100D19459 /* tamagotchi */,
+				FA53DC6730543E7C00D19459 /* tamagotchiTests */,
+				FA53DC7130543E7C00D19459 /* tamagotchiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA53DC5630543E7100D19459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA53DC6330543E7A00D19459 /* Preview Assets.xcassets in Resources */,
+				FA53DC6030543E7A00D19459 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA53DC6630543E7C00D19459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA53DC7030543E7C00D19459 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA53DC5430543E7100D19459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA53DC5E30543E7100D19459 /* ContentView.swift in Sources */,
+				FA52DEE43075E6B7005F7A7C /* pantalla_usuario.swift in Sources */,
+				FA53DC5C30543E7100D19459 /* tamagotchiApp.swift in Sources */,
+				FA52DEDC3075E69D005F7A7C /* estados_controlador_general.swift in Sources */,
+				FA52DEE33075E6B7005F7A7C /* mascota_estado_pantalla.swift in Sources */,
+				FA52DEDF3075E6A9005F7A7C /* Tamagochi.swift in Sources */,
+				FA52DEDB3075E69D005F7A7C /* controlador_general.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA53DC6430543E7C00D19459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA52DED33075E5BE005F7A7C /* tamagotchiApp.swift in Sources */,
+				FA53DC6D30543E7C00D19459 /* tamagotchiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA53DC6E30543E7C00D19459 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA52DED43075E5BF005F7A7C /* tamagotchiApp.swift in Sources */,
+				FA53DC7730543E7C00D19459 /* tamagotchiUITests.swift in Sources */,
+				FA53DC7930543E7C00D19459 /* tamagotchiUITestsLaunchTests.swift in Sources */,
+				FA52DED73075E68B005F7A7C /* Tamagochi.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA53DC6A30543E7C00D19459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA53DC5730543E7100D19459 /* tamagotchi */;
+			targetProxy = FA53DC6930543E7C00D19459 /* PBXContainerItemProxy */;
+		};
+		FA53DC7430543E7C00D19459 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA53DC5730543E7100D19459 /* tamagotchi */;
+			targetProxy = FA53DC7330543E7C00D19459 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA53DC7A30543E7C00D19459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA53DC7B30543E7C00D19459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA53DC7D30543E7C00D19459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tamagotchi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.tamagotchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA53DC7E30543E7C00D19459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tamagotchi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.tamagotchi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA53DC8030543E7C00D19459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.tamagotchiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tamagotchi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tamagotchi";
+			};
+			name = Debug;
+		};
+		FA53DC8130543E7C00D19459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.tamagotchiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tamagotchi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tamagotchi";
+			};
+			name = Release;
+		};
+		FA53DC8330543E7C00D19459 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.tamagotchiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tamagotchi;
+			};
+			name = Debug;
+		};
+		FA53DC8430543E7C00D19459 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ios.tamagotchiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = tamagotchi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA53DC5330543E7100D19459 /* Build configuration list for PBXProject "tamagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA53DC7A30543E7C00D19459 /* Debug */,
+				FA53DC7B30543E7C00D19459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA53DC7C30543E7C00D19459 /* Build configuration list for PBXNativeTarget "tamagotchi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA53DC7D30543E7C00D19459 /* Debug */,
+				FA53DC7E30543E7C00D19459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA53DC7F30543E7C00D19459 /* Build configuration list for PBXNativeTarget "tamagotchiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA53DC8030543E7C00D19459 /* Debug */,
+				FA53DC8130543E7C00D19459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA53DC8230543E7C00D19459 /* Build configuration list for PBXNativeTarget "tamagotchiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA53DC8330543E7C00D19459 /* Debug */,
+				FA53DC8430543E7C00D19459 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA53DC5030543E7100D19459 /* Project object */;
+}
