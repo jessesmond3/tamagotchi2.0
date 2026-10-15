@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		FA52DEF43075E8A8005F7A7C /* maquina_de_estadosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DEF33075E8A8005F7A7C /* maquina_de_estadosApp.swift */; };
-		FA52DEF63075E8A8005F7A7C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DEF53075E8A8005F7A7C /* ContentView.swift */; };
 		FA52DEF83075E8AC005F7A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA52DEF73075E8AC005F7A7C /* Assets.xcassets */; };
 		FA52DEFB3075E8AC005F7A7C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA52DEFA3075E8AC005F7A7C /* Preview Assets.xcassets */; };
 		FA52DF053075E8AC005F7A7C /* maquina_de_estadosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF043075E8AC005F7A7C /* maquina_de_estadosTests.swift */; };
 		FA52DF0F3075E8AC005F7A7C /* maquina_de_estadosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF0E3075E8AC005F7A7C /* maquina_de_estadosUITests.swift */; };
 		FA52DF113075E8AC005F7A7C /* maquina_de_estadosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF103075E8AC005F7A7C /* maquina_de_estadosUITestsLaunchTests.swift */; };
+		FA52DF2730760791005F7A7C /* controlador_general.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF2630760791005F7A7C /* controlador_general.swift */; };
+		FA52DF2930760A70005F7A7C /* pantalla_usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF2830760A70005F7A7C /* pantalla_usuario.swift */; };
+		FA52DF2B30762E06005F7A7C /* tamagotchi_base.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF2A30762E06005F7A7C /* tamagotchi_base.swift */; };
+		FA52DF2D307C0A4C005F7A7C /* estados_controlador_general.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF2C307C0A4C005F7A7C /* estados_controlador_general.swift */; };
+		FA52DF2F307D8043005F7A7C /* mascota_estado_pantalla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF2E307D8043005F7A7C /* mascota_estado_pantalla.swift */; };
+		FA52DF31307D9EAE005F7A7C /* controlador+comandos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF30307D9EAE005F7A7C /* controlador+comandos.swift */; };
+		FA52DF33307DA0F3005F7A7C /* generico.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF32307DA0F3005F7A7C /* generico.swift */; };
+		FA52DF35307DA89A005F7A7C /* sistema_comandos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA52DF34307DA89A005F7A7C /* sistema_comandos.swift */; };
+		FADB2B893080881800E139E6 /* visto_jeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADB2B883080881800E139E6 /* visto_jeep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,6 @@
 /* Begin PBXFileReference section */
 		FA52DEF03075E8A8005F7A7C /* maquina_de_estados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = maquina_de_estados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA52DEF33075E8A8005F7A7C /* maquina_de_estadosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maquina_de_estadosApp.swift; sourceTree = "<group>"; };
-		FA52DEF53075E8A8005F7A7C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA52DEF73075E8AC005F7A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA52DEFA3075E8AC005F7A7C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FA52DF003075E8AC005F7A7C /* maquina_de_estadosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maquina_de_estadosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +51,15 @@
 		FA52DF0A3075E8AC005F7A7C /* maquina_de_estadosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = maquina_de_estadosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA52DF0E3075E8AC005F7A7C /* maquina_de_estadosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maquina_de_estadosUITests.swift; sourceTree = "<group>"; };
 		FA52DF103075E8AC005F7A7C /* maquina_de_estadosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = maquina_de_estadosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA52DF2630760791005F7A7C /* controlador_general.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = controlador_general.swift; sourceTree = "<group>"; };
+		FA52DF2830760A70005F7A7C /* pantalla_usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pantalla_usuario.swift; sourceTree = "<group>"; };
+		FA52DF2A30762E06005F7A7C /* tamagotchi_base.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tamagotchi_base.swift; sourceTree = "<group>"; };
+		FA52DF2C307C0A4C005F7A7C /* estados_controlador_general.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = estados_controlador_general.swift; sourceTree = "<group>"; };
+		FA52DF2E307D8043005F7A7C /* mascota_estado_pantalla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mascota_estado_pantalla.swift; sourceTree = "<group>"; };
+		FA52DF30307D9EAE005F7A7C /* controlador+comandos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "controlador+comandos.swift"; sourceTree = "<group>"; };
+		FA52DF32307DA0F3005F7A7C /* generico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generico.swift; sourceTree = "<group>"; };
+		FA52DF34307DA89A005F7A7C /* sistema_comandos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sistema_comandos.swift; sourceTree = "<group>"; };
+		FADB2B883080881800E139E6 /* visto_jeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = visto_jeep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +110,10 @@
 		FA52DEF23075E8A8005F7A7C /* maquina_de_estados */ = {
 			isa = PBXGroup;
 			children = (
+				FA52DF1D3075EAC3005F7A7C /* controladores */,
+				FA52DF1E3075EAD5005F7A7C /* modelos */,
+				FA52DF1F3075EAF5005F7A7C /* ui */,
 				FA52DEF33075E8A8005F7A7C /* maquina_de_estadosApp.swift */,
-				FA52DEF53075E8A8005F7A7C /* ContentView.swift */,
 				FA52DEF73075E8AC005F7A7C /* Assets.xcassets */,
 				FA52DEF93075E8AC005F7A7C /* Preview Content */,
 			);
@@ -125,6 +143,52 @@
 				FA52DF103075E8AC005F7A7C /* maquina_de_estadosUITestsLaunchTests.swift */,
 			);
 			path = maquina_de_estadosUITests;
+			sourceTree = "<group>";
+		};
+		FA52DF1D3075EAC3005F7A7C /* controladores */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DF36307DA8A8005F7A7C /* genericos */,
+				FA52DF2630760791005F7A7C /* controlador_general.swift */,
+				FA52DF30307D9EAE005F7A7C /* controlador+comandos.swift */,
+				FA52DF2C307C0A4C005F7A7C /* estados_controlador_general.swift */,
+				FA52DF32307DA0F3005F7A7C /* generico.swift */,
+			);
+			path = controladores;
+			sourceTree = "<group>";
+		};
+		FA52DF1E3075EAD5005F7A7C /* modelos */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DF2A30762E06005F7A7C /* tamagotchi_base.swift */,
+			);
+			path = modelos;
+			sourceTree = "<group>";
+		};
+		FA52DF1F3075EAF5005F7A7C /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				FADB2B873080880200E139E6 /* atomos */,
+				FA52DF2830760A70005F7A7C /* pantalla_usuario.swift */,
+				FA52DF2E307D8043005F7A7C /* mascota_estado_pantalla.swift */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		FA52DF36307DA8A8005F7A7C /* genericos */ = {
+			isa = PBXGroup;
+			children = (
+				FA52DF34307DA89A005F7A7C /* sistema_comandos.swift */,
+			);
+			path = genericos;
+			sourceTree = "<group>";
+		};
+		FADB2B873080880200E139E6 /* atomos */ = {
+			isa = PBXGroup;
+			children = (
+				FADB2B883080881800E139E6 /* visto_jeep.swift */,
+			);
+			path = atomos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA52DEF63075E8A8005F7A7C /* ContentView.swift in Sources */,
+				FA52DF31307D9EAE005F7A7C /* controlador+comandos.swift in Sources */,
+				FA52DF2B30762E06005F7A7C /* tamagotchi_base.swift in Sources */,
+				FA52DF2730760791005F7A7C /* controlador_general.swift in Sources */,
+				FA52DF2930760A70005F7A7C /* pantalla_usuario.swift in Sources */,
+				FA52DF35307DA89A005F7A7C /* sistema_comandos.swift in Sources */,
+				FA52DF2F307D8043005F7A7C /* mascota_estado_pantalla.swift in Sources */,
+				FA52DF33307DA0F3005F7A7C /* generico.swift in Sources */,
 				FA52DEF43075E8A8005F7A7C /* maquina_de_estadosApp.swift in Sources */,
+				FA52DF2D307C0A4C005F7A7C /* estados_controlador_general.swift in Sources */,
+				FADB2B893080881800E139E6 /* visto_jeep.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,13 +499,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.maquina-de-estados";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -455,13 +528,14 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.9;
 				PRODUCT_BUNDLE_IDENTIFIER = "ios.maquina-de-estados";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

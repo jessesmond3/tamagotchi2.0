@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct maquina_de_estadosApp: App {
+struct MaquinaDeEstadosApp: App {
+    @State var control: ControladorGeneral = ControladorGeneral()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PantallaInicial()
+                .environment(control)
         }
     }
 }
